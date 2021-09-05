@@ -1,4 +1,7 @@
-export const initialState = {count: 0};
+
+export const initialState = {
+  count: 0
+};
 
 export function reducer(state, action) {
   switch (action.type) {

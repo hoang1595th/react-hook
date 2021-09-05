@@ -5,9 +5,6 @@ import { initialState, reducer } from './reducer';
 function UseReducer(props) {
 
     const [state, dispatch] = useReducer(reducer, initialState);
-    console.log('state', state)
-
-
 
     return (
         <>
