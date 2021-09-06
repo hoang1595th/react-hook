@@ -6,7 +6,7 @@ import { themes, ThemeContext } from './ThemeContext';
 function UseContext(props) {
 
     return (
-        <ThemeContext.Provider value={themes.light}>
+        <ThemeContext.Provider value={themes.dark}>
             <Toolbar />
         </ThemeContext.Provider>
     );
