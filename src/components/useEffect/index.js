@@ -7,8 +7,8 @@ function UseEffect(props) {
 
     // component did mount
     useEffect(() => {
-    	callApi1()
-    	callApi2()
+        callApi1()
+        callApi2()
     }, []);
 
     const callApi1 = () => {
@@ -22,7 +22,7 @@ function UseEffect(props) {
     return (
         <div>
             <button onClick={() => setState(state + 1)}>click</button>
-            <Child index={state}/>
+            <Child index={state} />
         </div>
     );
 }
